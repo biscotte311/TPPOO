@@ -7,6 +7,7 @@ public class Configuration {
 	
 	public Configuration(Carte carte, int nbExemeplaires) {
 		this.setCarte(carte);
+		this.nbExemplaires = nbExemeplaires;
 	}
 
 	public int getNbExemplaires() {
